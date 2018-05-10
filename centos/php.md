@@ -24,6 +24,8 @@ $ ./configure --prefix=/usr \
   --with-pear \
   --with-pdo-mysql \
   --with-readline \
+  --with-fpm-user=nginx \
+  --with-fpm-group=nginx \
   --enable-opcache \
   --enable-inline-optimization \
   --enable-zip \
