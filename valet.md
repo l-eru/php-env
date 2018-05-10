@@ -52,7 +52,7 @@ $ echo '<?php phpinfo();' > my-project/public/index.php
 # 在浏览器访问my-project.test就可以看到运行效果
 ```
 
-5. 其他
+5. 常用操作
 
 + 域名默认为目录名 + '.' + test。通过domain命令修改
 ```
@@ -71,6 +71,23 @@ $ valet secure + 指定目录
 # 必须进到要共享的项目目录中
 $ cd my-project
 $ valet share
+```
+
+
+6. 其他命令
+
+```shell
+# 对valet park过的目录使用。该目录下的项目将无法使用valet
+$ valet forget
+# 查看valet park过的目录列表
+$ valet paths
+# 重启valet
+$ valet restart
+# 启动和停止valet
+$ valet start
+$ valet stop
+# 卸载valet
+$ valet uninstall
 ```
 
 
