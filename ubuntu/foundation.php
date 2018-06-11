@@ -4,7 +4,7 @@
 
 ```shell
 $ sudo apt-get install update
-$ sudo apt-get install gcc libxml2-dev autoconf
+$ sudo apt-get install gcc libxml2-dev autoconf make g++
 
 
 
